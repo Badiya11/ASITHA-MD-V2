@@ -6,8 +6,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=T6wGHDaI#zrunyK-qTx6JgAaKQ-ICHkUPvR5EdP09o_S1D3jroWA' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
-ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*`|| හායි ලස්සන ලමයොව් මොකද කරන්නෙ ඉතිම් ඔයා🤔`*
-    මෙ මගෙ ලින්ක් එක ස්ටේටස් දාලා දෙන්නකො අනෙව් ලොබ වෙන්න එපා🥺`*" : process.env.ALIVE_MSG,
+ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*`|| හායි ලස්සන ලමයොව් මොකද කරන්නෙ ඉතිම් ඔයා🤔`*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "true" : process.env.AUTO_VOICE,
